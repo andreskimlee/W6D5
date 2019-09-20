@@ -1,0 +1,36 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#time-and-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: orange;
+  color: white;
+  width: 500px;
+  border-radius: 5px;
+  margin: auto;
+  padding: 20px;
+  font-size: 30px;
+  border: 3px solid black;
+}
+
+ul {
+  display: flex; 
+  flex-direction: row;
+  
+}
+
+li {
+  display: flex;
+  margin: 0px;
+  padding: 5px;
+  border: 3px solid black; 
+}
